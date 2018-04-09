@@ -31,3 +31,33 @@ header {
 h1 {
   color: white;
 }
+
+.main-nav {
+  float:left;
+  list-style: none;
+  margin-top: 60px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.main-nav li a:hover {
+  color: #e67e22;
+  border-bottom: 2px solid #e67e22;
+  transition: all 0.5s ease-in;
+  padding: 15px 0;
+}
+
+.logo img {
+  height: 100px;
+  float: left;
+  margin-top: 30px;
+}
